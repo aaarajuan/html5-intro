@@ -3,7 +3,6 @@ nav > ul > li{
     justify-content: space-around;
     display: inline;
     list-style: none;
-    margin-right: 15px;
 }
 
 nav li > a{
@@ -12,4 +11,11 @@ nav li > a{
     color: white;
     padding: 10px;
 }
+nav li > a:hover{
+    background-color: red;
+}
 
+footer, a{
+    text-align: center;
+    text-decoration: none;
+}
