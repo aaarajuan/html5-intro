@@ -1,0 +1,15 @@
+nav > ul > li{
+    display: flex;
+    justify-content: space-around;
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+}
+
+nav li > a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
