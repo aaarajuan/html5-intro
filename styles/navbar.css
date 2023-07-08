@@ -9,14 +9,24 @@ nav li{
 }
 
 nav li > a:hover{
-    background-color: red;
+    background-color: lightgreen;
 }
 
 nav li > a{
     text-decoration: none;
-    background-color: green;
-    color: white;
+    color: black;
     padding: 10px;
 }
 
 /* nested menu styles */
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding: 10px 3px;
+}
+
+nav li:hover .dropdown{
+    display: block;
+}
